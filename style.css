@@ -1,0 +1,89 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: "Playfair Display", serif; */
+    font-family: "Libre Baskerville", serif;
+}
+
+/* body{
+    font-family: Arial, Helvetica, sans-serif;
+} */
+.logo a:hover{
+   color: rgb(9, 9, 241);
+   font-weight: bold;
+}
+.logo a{
+    text-decoration: none;
+
+}
+
+button:hover{
+    opacity: 0.82;
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+.foot p{
+    font-size: 15px;
+}
+.foot p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.foot a{
+    text-decoration: none;
+    color: #fff;
+}
+.pincipal:hover{
+ text-decoration: underline;
+ opacity: 0.82;
+}
+.container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  
+}
+.main{
+   border: 1px solid rgb(175, 190, 253);
+    padding: 30px;
+    border-radius: 5px;
+}
+.input-box{
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+}
+.input-box input{
+    padding: 2px 10px;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    border: 0.1px solid rgb(170, 176, 233);
+    border-radius: 3px;
+    width: 90%;
+
+}
+.btn{
+    height: 30px;
+    width: 100%;
+    padding: 2px 20px;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    border: 0.1px solid gray;
+    border-radius: 3px;
+    background-color: rgb(41, 41, 145);
+    color: #fff;
+}
+.register-link a{
+    text-decoration: none;
+}
+.ho{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+    text-align: center; 
+}

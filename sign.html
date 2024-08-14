@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+</head>
+<body>
+
+    <div>
+        <div style="display:flex; justify-content: center; align-items: center; text-align: center; margin-top: 40px;">
+            <img src="./images/japslogo.webp" height="70px" width="150px" alt="">
+        </div>
+        <div class="container" >
+      <div class="main">
+        <form onsubmit="Signup(event)">
+            <h1 style="text-align: center;color: rgba(46, 46, 156, 0.932); ">Sign-In</h1>
+            <div class="input-box">
+                <label for="email">Email <br>
+                    <input type="text" id="email" placeholder="Enter your email" required>
+                </label>
+            </div>
+
+            <div class="input-box">
+                <label for="Password"> Password <br>
+                    <input type="password" name="email" id="password" placeholder="Enter your password" required>
+                </label>
+            </div>
+
+            <div class="remember-footer" style="margin-top: 30px; font-size: 13px; display: flex; justify-content: space-between; margin-bottom: -20;">
+                <label><input type="checkbox" name="" id="checkbox">
+                Remember me
+                </label>
+                <a href="#" >Forgot password</a>
+            </div>
+
+            <button type="submit" class="btn" style=" margin-top: 20px; border: none; outline: none;">Submit</button>
+
+            <div class="register-link " style=" margin-top: 20px;">
+                <p>Don`t have an account? <a href="./login.html">
+                    Register! <a href="./index.html">Home</a>
+                </a></p>
+            </div>
+
+
+        </form>
+    </div>
+      </div>
+    </div>
+    <script src="./app.js" ></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-auth.js"></script>
+
+    <script>
+          const firebaseConfig = {
+    apiKey: "AIzaSyBYVhA759UqthFYpfRBDCU2SLMD3gZP4yI",
+    authDomain: "hello-japs.firebaseapp.com",
+    projectId: "hello-japs",
+    storageBucket: "hello-japs.appspot.com",
+    messagingSenderId: "235226661097",
+    appId: "1:235226661097:web:ba48e5b149938713b57078",
+    measurementId: "G-HFFLPTRP70"
+  };
+  firebase.initializeApp(firebaseConfig);
+    </script>
+
+    
+</body>
+</html>
